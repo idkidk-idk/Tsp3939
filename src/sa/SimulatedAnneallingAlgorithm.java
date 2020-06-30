@@ -26,7 +26,7 @@ public class SimulatedAnneallingAlgorithm {
 
             // Create and add our cities
             try {
-                Scanner scanner = new Scanner(new File("/Users/RiaNarang/Desktop/Tsp3939/src/file42"));
+                Scanner scanner = new Scanner(new File("/Tsp3939/src/file42"));
                 //looping through
                 while (scanner.hasNextLine()) {
                     City c = new City();
